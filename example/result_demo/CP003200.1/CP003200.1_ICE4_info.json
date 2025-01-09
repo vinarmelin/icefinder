@@ -1,0 +1,11 @@
+{
+    "Type": "T4SS-type ICE",
+    "Location (nt)": "3433540..3495705",
+    "Length (bp)": "62166",
+    "GC Content (%)": "52.46",
+    "oriT seq": "CCGATTAGGCGCGACCAACCCCTTTAAAGCAGCGTTCCCATTTTTTCGAGCTTGCGAAGAAAAAATAGGCTAAACGCGCGTCTTAAAGGGGTTGGTCGCGCGTAGCGTGCGACGGTGTGCCGCC",
+    "DRs": "attL:3433540..3433556(CAGTCAGAGGAGCCAA)  attR:3495689..3495705(CAGTCAGAGGAGCCAA)",
+    "Relaxase Type": "MOBC",
+    "Mating pair formation systems": "typeT",
+    "Close to tRNA": "tRNA-Asn (3433479..3433555) [+]"
+}

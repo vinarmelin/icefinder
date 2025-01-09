@@ -1,0 +1,92 @@
+[
+    {
+        "gene": "LPBLPKKN_00001",
+        "pos": "221..2140 [-], 1920",
+        "prod": "tetracycline resistance ribosomal protection protein Tet(M); tet(M)",
+        "featu": "Flank; AR"
+    },
+    {
+        "gene": "LPBLPKKN_00002",
+        "pos": "2518..3435 [-], 918",
+        "prod": "FA_orf13",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00003",
+        "pos": "3450..4451 [-], 1002",
+        "prod": "FA_orf14",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00004",
+        "pos": "4448..5035 [-], 588",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "LPBLPKKN_00005",
+        "pos": "5246..5926 [+], 681",
+        "prod": "IS6 family transposase IS1216E; IS1216V",
+        "featu": "IS"
+    },
+    {
+        "gene": "LPBLPKKN_00006",
+        "pos": "5949..7442 [-], 1494",
+        "prod": "FA_orf15",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00007",
+        "pos": "7445..9892 [-], 2448",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "LPBLPKKN_00008",
+        "pos": "9876..10268 [-], 393",
+        "prod": "FA_orf17a",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00009",
+        "pos": "10357..10854 [-], 498",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "LPBLPKKN_00010",
+        "pos": "10971..11192 [-], 222",
+        "prod": "FA_orf19",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00011",
+        "pos": "11235..12440 [-], 1206",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "LPBLPKKN_00012",
+        "pos": "12618..14003 [-], 1386",
+        "prod": "tcpA",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00013",
+        "pos": "14032..14415 [-], 384",
+        "prod": "FA_orf23",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00014",
+        "pos": "14434..14748 [-], 315",
+        "prod": "FA_orf23",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "LPBLPKKN_00015",
+        "pos": "15398..15958 [-], 561",
+        "prod": "Lipoate-protein ligase LplJ",
+        "featu": "Flank"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "gene": "GMLAOIGD_00029",
+        "pos": "24062..24424 [-], 363",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "GMLAOIGD_00030",
+        "pos": "24814..25605 [-], 792",
+        "prod": " CBASS,4TM_new",
+        "featu": "Flank; Defense"
+    },
+    {
+        "gene": "GMLAOIGD_00031",
+        "pos": "25586..26275 [-], 690",
+        "prod": " CBASS,E2_II",
+        "featu": "Flank; Defense"
+    },
+    {
+        "gene": "GMLAOIGD_00032",
+        "pos": "26220..27332 [-], 1113",
+        "prod": " CBASS,Cyclase_II",
+        "featu": "Flank; Defense"
+    },
+    {
+        "gene": "GMLAOIGD_00033",
+        "pos": "27505..27831 [-], 327",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "GMLAOIGD_00034",
+        "pos": "27845..28234 [-], 390",
+        "prod": "FATA_gbs1346",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00035",
+        "pos": "28231..28458 [-], 228",
+        "prod": "FATA_gbs1347",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00036",
+        "pos": "28512..29588 [-], 1077",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00037",
+        "pos": "29628..30266 [-], 639",
+        "prod": "FATA_prgL",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00038",
+        "pos": "30395..32971 [-], 2577",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00039",
+        "pos": "33501..33800 [-], 300",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00040",
+        "pos": "33871..34782 [-], 912",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00041",
+        "pos": "34792..40707 [-], 5916",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00042",
+        "pos": "40758..41309 [-], 552",
+        "prod": "FATA_gbs1354",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00043",
+        "pos": "41293..41484 [-], 192",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00044",
+        "pos": "41485..46380 [-], 4896",
+        "prod": "FATA_prgB; SAG_RS09105",
+        "featu": "T4SS; VF"
+    },
+    {
+        "gene": "GMLAOIGD_00045",
+        "pos": "46528..47526 [-], 999",
+        "prod": "hypothetical protein; SanaTA,SanaT",
+        "featu": "Defense"
+    },
+    {
+        "gene": "GMLAOIGD_00046",
+        "pos": "47529..48152 [-], 624",
+        "prod": "hypothetical protein; SanaTA,SanaA",
+        "featu": "Defense"
+    },
+    {
+        "gene": "GMLAOIGD_00047",
+        "pos": "48199..50535 [-], 2337",
+        "prod": "FATA_prgK",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00048",
+        "pos": "50614..51000 [-], 387",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00049",
+        "pos": "51002..53332 [-], 2331",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00050",
+        "pos": "53310..53663 [-], 354",
+        "prod": "FATA_prgIc",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00051",
+        "pos": "53854..54708 [-], 855",
+        "prod": "FATA_prgHb",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00052",
+        "pos": "54727..54981 [-], 255",
+        "prod": "FATA_prgF",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00053",
+        "pos": "54987..56807 [-], 1821",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00054",
+        "pos": "56807..57331 [-], 525",
+        "prod": "FATA_gbs1365",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00055",
+        "pos": "57372..57956 [-], 585",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00056",
+        "pos": "57959..58192 [-], 234",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00057",
+        "pos": "58201..58584 [-], 384",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "GMLAOIGD_00058",
+        "pos": "58595..59023 [-], 429",
+        "prod": "FATA_gbs1369",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "GMLAOIGD_00059",
+        "pos": "59007..59474 [-], 468",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "GMLAOIGD_00060",
+        "pos": "59476..60024 [-], 549",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "GMLAOIGD_00061",
+        "pos": "60142..60363 [-], 222",
+        "prod": "Modification methylase HhaI",
+        "featu": "Flank"
+    },
+    {
+        "gene": "GMLAOIGD_00062",
+        "pos": "60511..60750 [-], 240",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "GMLAOIGD_00063",
+        "pos": "60891..61328 [-], 438",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    }
+]

@@ -1,0 +1,464 @@
+[
+    {
+        "gene": "KPHS_44660",
+        "pos": "4496834..4496963 [-], 130",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_44650",
+        "pos": "4496945..4497905 [+], 961",
+        "prod": "murein transglycosylase C",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_44670",
+        "pos": "4498096..4499350 [+], 1255",
+        "prod": "nucleoside permease NupG",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_44680",
+        "pos": "4499393..4501532 [-], 2140",
+        "prod": "ornithine decarboxylase",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_44690",
+        "pos": "4501951..4502665 [+], 715",
+        "prod": "putative transport protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_t00540",
+        "pos": "4502770..4502846 [+], 77",
+        "prod": "tRNA-Phe",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44700",
+        "pos": "4503063..4503864 [-], 802",
+        "prod": "Phage integrase, Phage_integrase",
+        "featu": "Integrase"
+    },
+    {
+        "gene": "KPHS_44710",
+        "pos": "4504027..4505317 [-], 1291",
+        "prod": "MOBH",
+        "featu": "Relaxase"
+    },
+    {
+        "gene": "KPHS_44720",
+        "pos": "4505451..4506432 [-], 982",
+        "prod": "antirestriction protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44730",
+        "pos": "4506515..4507121 [-], 607",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44740",
+        "pos": "4507223..4507571 [-], 349",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44750",
+        "pos": "4507668..4508067 [-], 400",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44760",
+        "pos": "4508149..4508428 [-], 280",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44770",
+        "pos": "4508772..4509726 [+], 955",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44780",
+        "pos": "4509730..4510624 [-], 895",
+        "prod": "DNA-binding prophage protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44790",
+        "pos": "4511527..4512718 [+], 1192",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44800",
+        "pos": "4512768..4512963 [-], 196",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44810",
+        "pos": "4513131..4513392 [+], 262",
+        "prod": "putative transcriptional regulator, Nlp",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44820",
+        "pos": "4513522..4514491 [+], 970",
+        "prod": "transposase InsC for insertion sequence IS903; IS903B",
+        "featu": "IS"
+    },
+    {
+        "gene": "KPHS_44830",
+        "pos": "4514598..4515054 [+], 457",
+        "prod": "cold shock protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44840",
+        "pos": "4515132..4515378 [-], 247",
+        "prod": "transcriptional regulator, XRE family",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44850",
+        "pos": "4515481..4515733 [+], 253",
+        "prod": "putative transcriptional regulator, Nlp",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44860",
+        "pos": "4515957..4516257 [+], 301",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44870",
+        "pos": "4516300..4517830 [-], 1531",
+        "prod": "G_tfc19",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_44880",
+        "pos": "4517832..4518174 [-], 343",
+        "prod": "G_tfc18",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_44890",
+        "pos": "4518170..4519592 [-], 1423",
+        "prod": "putative exported protein, G_tfc22",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_44900",
+        "pos": "4519607..4520549 [-], 943",
+        "prod": "G_tfc23",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_44910",
+        "pos": "4520545..4520941 [-], 397",
+        "prod": "G_tfc24",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_44920",
+        "pos": "4521058..4522657 [-], 1600",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44930",
+        "pos": "4522860..4523871 [-], 1012",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44940",
+        "pos": "4524076..4524370 [-], 295",
+        "prod": "conserved uncharacterized protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44950",
+        "pos": "4524959..4526075 [+], 1117",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44960",
+        "pos": "4526127..4527495 [+], 1369",
+        "prod": "hypothetical protein; PD-T7-1,PD-T7-1",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_44970",
+        "pos": "4527534..4527669 [-], 136",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44980",
+        "pos": "4528404..4528560 [+], 157",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_44990",
+        "pos": "4528707..4528887 [+], 181",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45000",
+        "pos": "4528940..4531718 [-], 2779",
+        "prod": "virb4",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45010",
+        "pos": "4531714..4532113 [-], 400",
+        "prod": "G_tfc15",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45020",
+        "pos": "4532126..4533611 [-], 1486",
+        "prod": "G_tfc14",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45030",
+        "pos": "4533607..4534453 [-], 847",
+        "prod": "G_tfc13",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45040",
+        "pos": "4534452..4535106 [-], 655",
+        "prod": "G_tfc12",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45050",
+        "pos": "4535102..4535474 [-], 373",
+        "prod": "G_tfc11",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45070",
+        "pos": "4535483..4535837 [-], 355",
+        "prod": "G_tfc10",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45060",
+        "pos": "4535851..4536088 [-], 238",
+        "prod": "G_tfc9",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45080",
+        "pos": "4536084..4536402 [-], 319",
+        "prod": "G_tfc8",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45090",
+        "pos": "4536850..4537525 [+], 676",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45100",
+        "pos": "4537784..4538261 [-], 478",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45110",
+        "pos": "4538362..4539010 [-], 649",
+        "prod": "G_tfc7",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45120",
+        "pos": "4539120..4539384 [-], 265",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45130",
+        "pos": "4539380..4541480 [-], 2101",
+        "prod": "TraG-family protein, t4cp2",
+        "featu": "T4CP"
+    },
+    {
+        "gene": "KPHS_45140",
+        "pos": "4541517..4542030 [-], 514",
+        "prod": "G_tfc5",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45150",
+        "pos": "4542026..4542596 [-], 571",
+        "prod": "T_virB1",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45160",
+        "pos": "4542574..4543192 [-], 619",
+        "prod": "G_tfc3",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45170",
+        "pos": "4543305..4544046 [-], 742",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45180",
+        "pos": "4544045..4544615 [-], 571",
+        "prod": "type IV B pilus protein, G_tfc2",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_45190",
+        "pos": "4544738..4545191 [-], 454",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45200",
+        "pos": "4545777..4545915 [-], 139",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45210",
+        "pos": "4545907..4546630 [-], 724",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45220",
+        "pos": "4547023..4548109 [+], 1087",
+        "prod": "hypothetical protein; AbiEii,AbiEi_2",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_45230",
+        "pos": "4548273..4548975 [+], 703",
+        "prod": "hypothetical protein; AbiEii,AbiEii",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_45240",
+        "pos": "4549050..4549536 [-], 487",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45250",
+        "pos": "4550196..4551525 [-], 1330",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45260",
+        "pos": "4551706..4552582 [+], 877",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45270",
+        "pos": "4552666..4553884 [-], 1219",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45280",
+        "pos": "4553883..4554468 [-], 586",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45290",
+        "pos": "4554467..4556090 [-], 1624",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45300",
+        "pos": "4556086..4557454 [-], 1369",
+        "prod": "replicative DNA helicase",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45310",
+        "pos": "4557829..4558702 [-], 874",
+        "prod": "ATPase involved in chromosome partitioning",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45320",
+        "pos": "4559371..4559524 [-], 154",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45330",
+        "pos": "4559620..4560214 [-], 595",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45340",
+        "pos": "4560917..4561334 [-], 418",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45350",
+        "pos": "4561399..4561693 [-], 295",
+        "prod": "putative CopG family helix-turn-helix protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_45360",
+        "pos": "4562337..4563714 [+], 1378",
+        "prod": "cystathionine-beta-synthase",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_45370",
+        "pos": "4563724..4564873 [+], 1150",
+        "prod": "cystathionine-gamma-lyase",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_45380",
+        "pos": "4564873..4565785 [-], 913",
+        "prod": "LysR family transcriptional regulator",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_45390",
+        "pos": "4565882..4566485 [+], 604",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_45400",
+        "pos": "4566571..4566916 [+], 346",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    }
+]

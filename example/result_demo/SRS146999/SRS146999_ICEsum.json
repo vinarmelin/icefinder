@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "seqid": "8",
+        "species": "Haemophilus parainfluenzae",
+        "location": "4918..41224",
+        "length": 36307,
+        "detail": "SRS146999_contig_8_ICE2"
+    },
+    {
+        "id": "2",
+        "seqid": "16",
+        "species": "Streptococcus suis",
+        "location": "27845..59023",
+        "length": 31179,
+        "detail": "SRS146999_contig_16_ICE3"
+    },
+    {
+        "id": "3",
+        "seqid": "909",
+        "species": "Streptococcus pneumoniae",
+        "location": "2518..14748",
+        "length": 12231,
+        "detail": "SRS146999_contig_909_ICE2"
+    }
+]

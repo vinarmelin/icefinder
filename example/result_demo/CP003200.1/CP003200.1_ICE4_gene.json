@@ -1,0 +1,296 @@
+[
+    {
+        "gene": "KPHS_34550",
+        "pos": "3428319..3428709 [-], 391",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_34560",
+        "pos": "3428849..3429770 [+], 922",
+        "prod": "LysR family transcriptional regulator",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_34570",
+        "pos": "3430154..3431096 [-], 943",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_34580",
+        "pos": "3431174..3432125 [-], 952",
+        "prod": "transcriptional regulator Cbl",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_34590",
+        "pos": "3432231..3433149 [-], 919",
+        "prod": "nitrogen assimilation transcriptional regulator",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_t00430",
+        "pos": "3433479..3433555 [+], 77",
+        "prod": "tRNA-Asn",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34600",
+        "pos": "3433716..3434979 [+], 1264",
+        "prod": "integrase, Phage_integrase",
+        "featu": "Integrase"
+    },
+    {
+        "gene": "KPHS_34610",
+        "pos": "3435172..3436477 [-], 1306",
+        "prod": "salicylate synthase Irp9; ybtS",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34620",
+        "pos": "3436504..3437785 [-], 1282",
+        "prod": "MFS superfamily transporter signal transducer; ybtX",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34630",
+        "pos": "3437777..3439580 [-], 1804",
+        "prod": "permease and ATP-binding protein of yersiniabactin-iron ABC transporter YbtQ; ybtQ",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34640",
+        "pos": "3439566..3441279 [-], 1714",
+        "prod": "lipoprotein inner membrane ABC-transporter; ybtP",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34650",
+        "pos": "3441535..3442495 [+], 961",
+        "prod": "AraC-type transcriptional regulator; ybtA",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34660",
+        "pos": "3442685..3448793 [+], 6109",
+        "prod": "High-molecular-weight nonribosomal peptide/polyketide synthetase 2 (HMWP2); irp2",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34670",
+        "pos": "3448880..3458372 [+], 9493",
+        "prod": "High-molecular-weight nonribosomal peptide/polyketide synthetase 1 (HMWP1); irp1",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34680",
+        "pos": "3458368..3459469 [+], 1102",
+        "prod": "irp3 protein, yersiniabactin siderophore biosynthetic protein; ybtU",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34690",
+        "pos": "3459531..3460269 [+], 739",
+        "prod": "putative thioesterase YbtT; ybtT",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34700",
+        "pos": "3460272..3461850 [+], 1579",
+        "prod": "yersiniabactin siderophore biosynthetic protein; ybtE",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34710",
+        "pos": "3461980..3464002 [+], 2023",
+        "prod": "pesticin/yersiniabactin TonB-dependent receptor; fyuA/psn",
+        "featu": "VF"
+    },
+    {
+        "gene": "KPHS_34720",
+        "pos": "3464873..3465800 [+], 928",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34730",
+        "pos": "3466313..3466895 [+], 583",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34740",
+        "pos": "3467336..3467465 [+], 130",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34750",
+        "pos": "3468033..3468267 [+], 235",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34760",
+        "pos": "3468339..3469050 [+], 712",
+        "prod": "putative type IV secretory pathway VirB1 component, T_virB1",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34770",
+        "pos": "3469163..3469343 [+], 181",
+        "prod": "T_virB2",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34780",
+        "pos": "3469355..3472094 [+], 2740",
+        "prod": "putative type IV secretory pathway VirB4 component, virb4",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34790",
+        "pos": "3472111..3472819 [+], 709",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34800",
+        "pos": "3473072..3474146 [+], 1075",
+        "prod": "T_virB6",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34810",
+        "pos": "3474218..3474338 [-], 121",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34820",
+        "pos": "3474367..3475051 [+], 685",
+        "prod": "type IV secretion system VirB8 component, T_virB8",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34830",
+        "pos": "3475047..3475956 [+], 910",
+        "prod": "type IV secretory pathway VirB9 component, T_virB9",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34840",
+        "pos": "3475999..3477250 [+], 1252",
+        "prod": "type IV secretory pathway VirB10 component, T_virB10",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34850",
+        "pos": "3477239..3478265 [+], 1027",
+        "prod": "type IV secretory pathway VirB11 component, T_virB11",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "KPHS_34860",
+        "pos": "3479192..3479348 [+], 157",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34870",
+        "pos": "3480057..3481917 [+], 1861",
+        "prod": "putative MobB mobilization protein, t4cp2",
+        "featu": "T4CP"
+    },
+    {
+        "gene": "KPHS_34880",
+        "pos": "3481926..3482673 [+], 748",
+        "prod": "putative MobC mobilization protein, MOBC",
+        "featu": "Relaxase"
+    },
+    {
+        "gene": "KPHS_34890",
+        "pos": "3482865..3483810 [-], 946",
+        "prod": "putative Antirestriction protein ardC",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34900",
+        "pos": "3484815..3485811 [+], 997",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34910",
+        "pos": "3485807..3486896 [+], 1090",
+        "prod": "hypothetical protein; Lamassu-Fam,LmuA_effector_Mrr",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_34920",
+        "pos": "3487132..3487387 [+], 256",
+        "prod": "hypothetical protein; Lamassu-Fam,LmuC_acc_Mrr",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_34930",
+        "pos": "3487383..3489264 [+], 1882",
+        "prod": "hypothetical protein; Lamassu-Fam,LmuB_SMC_Mrr",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_34940",
+        "pos": "3489547..3490567 [-], 1021",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34950",
+        "pos": "3491965..3494212 [+], 2248",
+        "prod": "hypothetical protein; Retron_I_B,ATPase_TOPRIM_COG3593",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_34960",
+        "pos": "3494326..3495427 [+], 1102",
+        "prod": "putative Retron-type reverse transcriptase; Retron,RT_Tot",
+        "featu": "Defense"
+    },
+    {
+        "gene": "KPHS_34970",
+        "pos": "3495636..3495780 [-], 145",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "KPHS_34980",
+        "pos": "3495798..3497433 [-], 1636",
+        "prod": "putative sodium:hydrogen antiporter",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_34990",
+        "pos": "3498024..3498849 [+], 826",
+        "prod": "putative regulatory protein TetR",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_35000",
+        "pos": "3498898..3499702 [+], 805",
+        "prod": "putative dehydrogenase",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_35010",
+        "pos": "3499776..3499920 [-], 145",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "KPHS_35020",
+        "pos": "3500665..3502288 [-], 1624",
+        "prod": "putative lysophospholipase",
+        "featu": "Flank"
+    }
+]

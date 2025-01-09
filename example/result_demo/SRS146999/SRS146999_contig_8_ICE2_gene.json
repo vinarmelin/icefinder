@@ -1,0 +1,362 @@
+[
+    {
+        "gene": "JLMCPGDI_00004",
+        "pos": "2490..3056 [-], 567",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00005",
+        "pos": "3056..3259 [-], 204",
+        "prod": "Putative membrane protein insertion efficiency factor",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00006",
+        "pos": "3259..3501 [-], 243",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00007",
+        "pos": "3533..3715 [-], 183",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00008",
+        "pos": "3715..4008 [-], 294",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00009",
+        "pos": "4918..5328 [+], 411",
+        "prod": "G_tfc7",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00010",
+        "pos": "5412..6797 [+], 1386",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00011",
+        "pos": "6797..7588 [+], 792",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00012",
+        "pos": "7944..8105 [+], 162",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00013",
+        "pos": "8169..8351 [-], 183",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00014",
+        "pos": "8365..8682 [-], 318",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00015",
+        "pos": "9051..9767 [-], 717",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00016",
+        "pos": "9954..11846 [-], 1893",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00017",
+        "pos": "12083..12787 [+], 705",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00018",
+        "pos": "13103..13801 [-], 699",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00019",
+        "pos": "13762..13923 [-], 162",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00020",
+        "pos": "14090..14377 [-], 288",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00021",
+        "pos": "14628..14834 [+], 207",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00022",
+        "pos": "14874..15332 [+], 459",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00023",
+        "pos": "15355..15588 [+], 234",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00024",
+        "pos": "15610..15897 [+], 288",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00025",
+        "pos": "15912..16103 [+], 192",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00026",
+        "pos": "16118..16708 [+], 591",
+        "prod": "Transposon gamma-delta resolvase",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00027",
+        "pos": "16734..17228 [+], 495",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00028",
+        "pos": "17264..18025 [-], 762",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00029",
+        "pos": "18129..19082 [-], 954",
+        "prod": "DNA primase TraC",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00030",
+        "pos": "19214..19372 [-], 159",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00031",
+        "pos": "19376..19624 [-], 249",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00032",
+        "pos": "19627..19860 [-], 234",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00033",
+        "pos": "19945..20301 [-], 357",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00034",
+        "pos": "20682..21119 [+], 438",
+        "prod": "G_tfc24",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00035",
+        "pos": "21083..22057 [+], 975",
+        "prod": "G_tfc23",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00036",
+        "pos": "22072..24072 [+], 2001",
+        "prod": "G_tfc22",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00037",
+        "pos": "24088..24495 [+], 408",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00038",
+        "pos": "24539..24718 [-], 180",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00039",
+        "pos": "24876..25271 [+], 396",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00040",
+        "pos": "25297..26793 [-], 1497",
+        "prod": "G_tfc19",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00041",
+        "pos": "26802..27125 [-], 324",
+        "prod": "G_tfc18",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00042",
+        "pos": "27135..27578 [-], 444",
+        "prod": "G_tfc17",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00043",
+        "pos": "27550..30420 [-], 2871",
+        "prod": "virb4",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00044",
+        "pos": "30436..30843 [-], 408",
+        "prod": "G_tfc15",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00045",
+        "pos": "30853..32259 [-], 1407",
+        "prod": "G_tfc14",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00046",
+        "pos": "32274..33143 [-], 870",
+        "prod": "G_tfc13",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00047",
+        "pos": "33143..33787 [-], 645",
+        "prod": "G_tfc12",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00048",
+        "pos": "33799..34170 [-], 372",
+        "prod": "G_tfc11",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00049",
+        "pos": "34190..34591 [-], 402",
+        "prod": "G_tfc10",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00050",
+        "pos": "34611..34856 [-], 246",
+        "prod": "G_tfc9",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00051",
+        "pos": "34860..35180 [-], 321",
+        "prod": "G_tfc8",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00052",
+        "pos": "35341..36027 [-], 687",
+        "prod": "G_tfc7",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00053",
+        "pos": "36027..36362 [-], 336",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00054",
+        "pos": "36346..38595 [-], 2250",
+        "prod": "t4cp2",
+        "featu": "T4CP"
+    },
+    {
+        "gene": "JLMCPGDI_00055",
+        "pos": "38592..39098 [-], 507",
+        "prod": "G_tfc5",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00056",
+        "pos": "39114..39872 [-], 759",
+        "prod": "hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "JLMCPGDI_00057",
+        "pos": "39851..40591 [-], 741",
+        "prod": "G_tfc3",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00058",
+        "pos": "40595..41224 [-], 630",
+        "prod": "G_tfc2",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "JLMCPGDI_00059",
+        "pos": "41323..42087 [-], 765",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00060",
+        "pos": "42145..42738 [-], 594",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00061",
+        "pos": "42946..43353 [-], 408",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00062",
+        "pos": "43389..44030 [-], 642",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    },
+    {
+        "gene": "JLMCPGDI_00063",
+        "pos": "44138..44572 [-], 435",
+        "prod": "hypothetical protein",
+        "featu": "Flank"
+    }
+]

@@ -1,0 +1,224 @@
+[
+    {
+        "gene": "BSU_tRNA_46",
+        "pos": "528782..528873 [+], 92",
+        "prod": "tRNA-Ser",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_tRNA_47",
+        "pos": "528902..528974 [+], 73",
+        "prod": "tRNA-Glu",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_tRNA_48",
+        "pos": "528985..529060 [+], 76",
+        "prod": "tRNA-Gln",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_tRNA_49",
+        "pos": "529086..529162 [+], 77",
+        "prod": "tRNA-Lys",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_tRNA_50",
+        "pos": "529173..529255 [+], 83",
+        "prod": "tRNA-Leu",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_tRNA_51",
+        "pos": "529335..529422 [+], 88",
+        "prod": "tRNA-Leu",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04800",
+        "pos": "529504..530611 [-], 1108",
+        "prod": "ICEBs1 mobile element: integrase, Phage_integrase",
+        "featu": "Integrase"
+    },
+    {
+        "gene": "BSU_04810",
+        "pos": "530623..531133 [-], 511",
+        "prod": "ICEBs1 mobile element: site-specific protease cleaving ImmR",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04820",
+        "pos": "531129..531513 [-], 385",
+        "prod": "ICEBs1 mobile element: transcriptional regulator (Xre family)",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04830",
+        "pos": "531786..531981 [+], 196",
+        "prod": "ICEBs1 mobile element: excisionase",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04839",
+        "pos": "531977..532238 [+], 262",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04840",
+        "pos": "532291..532552 [+], 262",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04849",
+        "pos": "532757..532886 [+], 130",
+        "prod": "ICEBs1 mobile element: hypothetical protein",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04850",
+        "pos": "532921..533302 [+], 382",
+        "prod": "ICEBs1 mobile element: helicase processivity factor, FA_orf23",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04860",
+        "pos": "533337..534780 [+], 1444",
+        "prod": "ICEBs1 mobile element: coupling conjugation protein VirD4, tcpA",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04870",
+        "pos": "534772..535831 [+], 1060",
+        "prod": "ICEBs1 mobile element: DNA relaxase, MOBT",
+        "featu": "Relaxase"
+    },
+    {
+        "gene": "BSU_04880",
+        "pos": "536095..536365 [+], 271",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04890",
+        "pos": "536403..536670 [+], 268",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04900",
+        "pos": "536686..536995 [+], 310",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04910",
+        "pos": "536984..538049 [+], 1066",
+        "prod": "ICEBs1 mobile element: subunit of the conjugation machinery VirB8, FA_orf13",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04920",
+        "pos": "538060..538309 [+], 250",
+        "prod": "ICEBs1 mobile element: subunit of the conjugation machinery",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04930",
+        "pos": "538321..538846 [+], 526",
+        "prod": "ICEBs1 mobile element: subunit of the conjugation machinery, FA_orf17b",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04940",
+        "pos": "538733..541229 [+], 2497",
+        "prod": "ICEBs1 mobile element: VirB4-like ATPase, virb4",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04950",
+        "pos": "541247..541574 [+], 328",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04960",
+        "pos": "541577..544025 [+], 2449",
+        "prod": "ICEBs1 mobile element: VirB6 subunit of the conjugation machinery, FA_orf15",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04970",
+        "pos": "544021..545011 [+], 991",
+        "prod": "ICEBs1 mobile element: two-domain autolysin with N-acetylmuramidase and DL-endopeptidase activity VirB1, FA_orf14",
+        "featu": "T4SS"
+    },
+    {
+        "gene": "BSU_04980",
+        "pos": "545025..545532 [+], 508",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_04990",
+        "pos": "545594..545975 [+], 382",
+        "prod": "ICEBs1 mobile element: putative lipoprotein of unknown function",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_05000",
+        "pos": "546165..546966 [-], 802",
+        "prod": "ICEBs1 mobile element: conserved protein of unknown function; SpbK,SpbK",
+        "featu": "Defense"
+    },
+    {
+        "gene": "BSU_05010",
+        "pos": "547305..548481 [+], 1177",
+        "prod": "ICEBs1 mobile element: response regulator aspartate phosphatase",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_05020",
+        "pos": "548437..548557 [+], 121",
+        "prod": "ICEBs1 mobile element: secreted regulator of the activity of phosphatase RapI",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_05030",
+        "pos": "548709..549651 [+], 943",
+        "prod": "ICEBs1 mobile element: putative helicase",
+        "featu": ""
+    },
+    {
+        "gene": "BSU_05040",
+        "pos": "550239..551259 [-], 1021",
+        "prod": "putative alkanal monooxygenase",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_05050",
+        "pos": "551518..551929 [+], 412",
+        "prod": "transcriptional regulator (Lrp/AsnC family)",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_05060",
+        "pos": "552051..552501 [-], 451",
+        "prod": "transcriptional regulator (Lrp/AsnC family)",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_05070",
+        "pos": "552615..553158 [+], 544",
+        "prod": "putative hydrolase",
+        "featu": "Flank"
+    },
+    {
+        "gene": "BSU_05080",
+        "pos": "553710..554475 [+], 766",
+        "prod": "putative metal-dependent hydrolase",
+        "featu": "Flank"
+    }
+]

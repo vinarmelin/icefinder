@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "region": "Region1",
+        "location": "3433540..3495705",
+        "length": "62166",
+        "gc": "52.46",
+        "type": "T4SS-type ICE",
+        "detail": "CP003200.1_ICE4"
+    },
+    {
+        "id": "2",
+        "region": "Region2",
+        "location": "4502831..4561944",
+        "length": "59114",
+        "gc": "49.98",
+        "type": "T4SS-type ICE",
+        "detail": "CP003200.1_ICE3"
+    }
+]
