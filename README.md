@@ -1,13 +1,13 @@
-> [!NOTE]  
-> This repo contains a copy of https://tool2-mml.sjtu.edu.cn/ICEberg3/Download.html.
-
-# ICEfinder 2.0
+# ICEfinder 2.0
 
 ICEfinder 2.0 - Detecting Integrative and Conjugative Elements in Bacteria.
 
-## Welcome to use ICEfinder local version
+> [!NOTE]
+> This repo contains a copy of https://tool2-mml.sjtu.edu.cn/ICEberg3/Download.html.
 
-> [!Tip]  
+## Welcome to use ICEfinder local version
+
+> [!Tip]
 > ICEfinder also has a web version, you can access it easily by https://tool2-mml.sjtu.edu.cn/ICEberg3/ICEfinder.php.
 
 ## Installation
@@ -131,7 +131,8 @@ Detailed gene structure information for each ICE along with web-based visualizat
     }
  ]
 ```
-## Contact
+
+## Contact
 
 If you have any question for ICEfinder 2.0, please feel free to contact the authors:
 
