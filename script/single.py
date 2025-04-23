@@ -1,4 +1,5 @@
-#!/public/wangm/miniconda3/bin/python
+#!/usr/bin/env python3
+
 # -*- coding: utf-8 -*-
 
 import os,time
@@ -8,15 +9,13 @@ from Bio import SeqIO
 from Bio.SeqUtils import GC
 from Bio.SeqFeature import CompoundLocation, FeatureLocation
 from functools import cmp_to_key
+import logging
 from script.function import getblast
 from script.config import get_param
 
-param = get_param()
-workdir = param[0]
-blastn = param[5]
-prokka = param[8]
-macsyfinder = param[9]
-hmmsearch = param[10]
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+workdir,kraken,krakenDB,defensefinder,blastp,blastn,seqkit,prodigal,prokka,macsyfinder,hmmsearch = get_param()
 
 tmp_dir = os.path.join(workdir,'tmp') 
 in_dir = os.path.join(tmp_dir,'fasta')
@@ -67,12 +66,12 @@ def calculate_gc(fasta_file, start, end, window_size, step_size):
 	return gcdict
 
 def prokkanno(runID,infile):
-
+	logging.info("Running Prokka annotation")
 	cmd = [prokka,infile,"--force","--fast --quiet --cdsrnaolap --cpus 8 ","--outdir",gb_dir,"--prefix",runID]
 	os.system(' '.join(cmd))
 
 def ICEscan(runID):
-
+	logging.info("Running Macsyfinder on ICEscan model")
 	anno_fa = os.path.join(gb_dir, runID + '.faa')
 	ICE_res = os.path.join(tmp_dir, runID, runID + '_ICE')
 	ICE_cmd = macsyfinder + ' --db-type ordered_replicon --hmmer '+ hmmsearch + ' --models-dir ./data/macsydata/ --models ICEscan all --replicon-topology linear --coverage-profile 0.3 --sequence-db '+ anno_fa+ ' -o ' + ICE_res + ' > /dev/null'
@@ -297,7 +296,7 @@ def get_DR(runID,infile):
 	return DRlist
 
 def oritseq(runID, regi, infile, start, end):
-
+	logging.info("Running Blast for OriT detection")
 	oritseq = '-'
 	fafile = os.path.join(tmp_dir,runID,regi+'_fororit.fa')	
 	with open(fafile,'w') as orif:
@@ -324,7 +323,7 @@ def oritseq(runID, regi, infile, start, end):
 	return oritseq
 
 def ICE_filter(ICE_res):
-
+	logging.info("Filtering ICEs")
 	with open(ICE_res,'r') as ICEin:
 		ICEfdict = {'ICE':[]}
 		IMEfdict = {}
@@ -486,7 +485,7 @@ def get_args(argdict,vfdict,isdict,dfdict,metaldict,popdict,symdict,gene,feature
 	return feature,product
 
 def get_feat(feat):
-
+	logging.info(f"Extracting ICE features: {feat}")
 	featuredict = {
 		'Phage_integrase':'Integrase','UPF0236':'Integrase',
         'Recombinase':'Integrase','rve':'Integrase',

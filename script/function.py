@@ -4,15 +4,13 @@
 import os,time,json
 from Bio import SeqIO
 from Bio.SeqUtils import GC
+import logging
 from script.config import get_param
 from Bio.Blast.Applications import NcbiblastpCommandline
 from Bio.Blast.Applications import NcbiblastnCommandline
 
-param = get_param()
-workdir = param[0]
-defensefinder = param[3]
-blastp = param[4]
-blastn = param[5]
+workdir,kraken,krakenDB,defensefinder,blastp,blastn,seqkit,prodigal,prokka,macsyfinder,hmmsearch = get_param()
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 tmp_dir = os.path.join(workdir,'tmp')
 gb_dir = os.path.join(tmp_dir,'gbk')
@@ -102,10 +100,11 @@ def getdf(runID):
 
 	dfout = os.path.join(tmp_dir,runID,'defense_'+runID)
 	defcmd = [defensefinder, 'run', '-w 8 --models-dir ./data/macsydata/','-o', dfout, infaa, '> /dev/null']
+	print(' '.join(defcmd))
 	os.system(' '.join(defcmd))
 
 	dfdict = {}
-	with open(os.path.join(dfout,'defense_finder_genes.tsv')) as dfres:
+	with open(os.path.join(dfout,f'{runID}_defense_finder_genes.tsv')) as dfres:
 		for line in dfres.readlines():
 			lines = line.strip().split('\t')
 			if lines[0] != 'replicon':
@@ -114,36 +113,42 @@ def getdf(runID):
 	return dfdict
 
 def isblast(faa_file,IS_out):
+	logging.info("Running Blastp for IS detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=IS_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, num_descriptions=1, \
                        num_alignments=1, outfmt="6 std slen stitle", out=IS_out)
 	blastp_cline()
 
 def vfblast(faa_file,VF_out):
+	logging.info("Running Blastp for VF detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=VF_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, num_descriptions=1, \
                        num_alignments=1, outfmt="6 std slen stitle", out=VF_out)
 	blastp_cline()
 
 def argblast(fa_file,arg_out):
+	logging.info("Running Blastp for ARG detection")
 	blastp_cline = NcbiblastnCommandline(cmd=blastn, query=fa_file, db=arg_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, num_descriptions=1, \
                        num_alignments=1, outfmt="6 std slen stitle", out=arg_out)
 	blastp_cline()
 
 def metalblast(faa_file,metal_out):
+	logging.info("Running Blastp for Metal tolerance detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=metal_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, num_descriptions=1, \
                        num_alignments=1, outfmt="6 std slen stitle", out=metal_out)
 	blastp_cline()
 
 def popblast(faa_file,pop_out):
+	logging.info("Running Blastp for degradation detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=pop_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, num_descriptions=1, \
                        num_alignments=1, outfmt="6 std slen stitle", out=pop_out)
 	blastp_cline()
 
 def symblast(faa_file,sym_out):
+	logging.info("Running Blastp for Symbiosis detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=sym_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, num_descriptions=1, \
                        num_alignments=1, outfmt="6 std slen stitle", out=sym_out)
