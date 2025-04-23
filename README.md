@@ -18,6 +18,10 @@ python ICEfinder2.py -i example/input_demo/NC_000964.3.gb -t Single
 
 The results generated were identical to the test provided by the authors. Despite this, optimal outcomes are not guaranteed.
 
+## Docker availability
+
+I've generated a Docker image with the content of this repository. It is available at: https://hub.docker.com/repository/docker/rpalcab/iceberg2/general
+
 ## Welcome to use ICEfinder local version
 
 > [!Tip]
