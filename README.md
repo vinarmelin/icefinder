@@ -4,7 +4,19 @@ ICEfinder 2.0 - Detecting Integrative and Conjugative Elements in Bacteria.
 
 > [!NOTE]
 > This repo contains a copy of https://tool2-mml.sjtu.edu.cn/ICEberg3/Download.html.
-> Defense-finder and CasFinder databases were updated to the latest versions (2.0.2 and 3.1.0, respectively).
+
+## Script modifications
+
+1. Defense-finder and CasFinder databases were updated to their latest versions using ```defense-finder update --models-dir data/macsydata```
+2. Logging was added for a closer tracing of the execution.
+3. What I assume is a bug during the folder creation was fixed (ICEfinder2.py, line 68).
+
+ICEfinder2 was tested with the latest compatible software versions up-to-date (including Macsyfinder and Defense-finder, check environment.yml) and the following command: 
+```
+python ICEfinder2.py -i example/input_demo/NC_000964.3.gb -t Single
+```
+
+The results generated were identical to the test provided by the authors. Despite this, optimal outcomes are not guaranteed.
 
 ## Welcome to use ICEfinder local version
 
@@ -45,22 +57,8 @@ to the results in the directory 'example/result_demo'.
 
 > [!NOTE]
 > DefenseFinder and MacSyFinder currently support the specified versions only. We will be conducting version updates later.
-ite this, the optimal outcomes are not guaranteed. Please go to the original repository for the original ICEfinder2 version provided by the authors.
 
-## Script modifications
-1. Defense-finder databases were updated to their latest versions using ```defense-finder update --models-dir data/macsydata```
-2. Logging was added for a closer tracing of the execution.
-3. What I assume is a bug during the folder creation was fixed (ICEfinder2.py, line 68).
-
-ICEfinder2 was tested with the latest compatible software versions up-to-date (check environment.yml) and the following command: 
-
-```
-python ICEfinder2.py -i example/input_demo/NC_000964.3.gb -t Single
-```
-
-The results generated were identical to the test provided by the authors. Despite this, the optimal outcomes are not guaranteed. Despite this, optimal outcomes are not guaranteed.
-
-## Input data
+## Input data
 
 At present, ICEfinder2 accepts the bacterial genome sequences in the GenBank or FASTA format. 
 And You can input a single bacterial sequence (in either FASTA or GenBank format) or multiple metagenome sequences (in FASTA format) for analysis.
