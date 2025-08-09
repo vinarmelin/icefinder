@@ -61,11 +61,11 @@ if __name__ == "__main__":
 	input_file = args.input
 
 	if not os.path.exists(tmp_dir):
-		os.mkdir(tmp_dir)
+		os.makedirs(tmp_dir)
 	if not os.path.exists(gb_dir):
-		os.mkdir(gb_dir)
+		os.makedirs(gb_dir)
 	if not os.path.exists(fa_dir):
-		os.mkdir(fa_dir)
+		os.makedirs(fa_dir)
 
 	runID = file_name_without_extension = os.path.splitext(os.path.basename(input_file))[0]
 
