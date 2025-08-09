@@ -15,3 +15,4 @@ maintainer:
   name: Florian Tesson
 short_desc: Allow for a systematic search of all known anti-phage systems
 vers: 2.0.2
+profiles-dir: profiles
