@@ -91,6 +91,15 @@ def getres(mmout): ##not used
 #### Not used
 #### Test
 
+def safe_blast_call(blast_cmd):
+	try:
+		blast_cmd()
+	except ApplicationError as e:
+		if e.return_code == 3 and "Examining 5 or more matches is recommended" in e.stderr:
+			logging.warning("BLAST warning ignored: %s", e.stderr.strip())
+		else:
+			raise
+
 def getdf(runID):
 
 	if not os.path.exists(os.path.join(tmp_dir,runID,runID+'.locus_tag.faa')):
@@ -117,42 +126,42 @@ def isblast(faa_file,IS_out):
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=IS_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, \
                        max_target_seqs=1, outfmt="6 std slen stitle", out=IS_out)
-	blastp_cline()
+	safe_blast_call(blastp_cline)
 
 def vfblast(faa_file,VF_out):
 	logging.info("Running Blastp for VF detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=VF_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, \
                        max_target_seqs=1, outfmt="6 std slen stitle", out=VF_out)
-	blastp_cline()
+	safe_blast_call(blastp_cline)
 
 def argblast(fa_file,arg_out):
 	logging.info("Running Blastp for ARG detection")
 	blastp_cline = NcbiblastnCommandline(cmd=blastn, query=fa_file, db=arg_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, \
                        max_target_seqs=1, outfmt="6 std slen stitle", out=arg_out)
-	blastp_cline()
+	safe_blast_call(blastp_cline)
 
 def metalblast(faa_file,metal_out):
 	logging.info("Running Blastp for Metal tolerance detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=metal_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, \
                        max_target_seqs=1, outfmt="6 std slen stitle", out=metal_out)
-	blastp_cline()
+	safe_blast_call(blastp_cline)
 
 def popblast(faa_file,pop_out):
 	logging.info("Running Blastp for degradation detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=pop_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, \
                        max_target_seqs=1, outfmt="6 std slen stitle", out=pop_out)
-	blastp_cline()
+	safe_blast_call(blastp_cline)
 
 def symblast(faa_file,sym_out):
 	logging.info("Running Blastp for Symbiosis detection")
 	blastp_cline = NcbiblastpCommandline(cmd=blastp, query=faa_file, db=sym_Database, \
                        evalue=0.0001, num_threads=20, max_hsps=1, \
                        max_target_seqs=1, outfmt="6 std slen stitle", out=sym_out)
-	blastp_cline()
+	safe_blast_call(blastp_cline)
 
 def havalue(value,out):
 
