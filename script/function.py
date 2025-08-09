@@ -109,7 +109,7 @@ def getdf(runID):
 		infaa = os.path.join(tmp_dir,runID,runID+'.locus_tag.faa')
 
 	dfout = os.path.join(tmp_dir,runID,'defense_'+runID)
-	defcmd = [defensefinder, 'run', '-w 8 --models-dir ./data/macsydata/','-o', dfout, infaa, '> /dev/null']
+	defcmd = [defensefinder, 'run', '-w 8 --models-dir ./data/macsydata/defense-finder-models','-o', dfout, infaa, '> /dev/null']
 	print(' '.join(defcmd))
 	os.system(' '.join(defcmd))
 
