@@ -6,6 +6,7 @@ from Bio import SeqIO
 from Bio.SeqUtils import GC
 import logging
 from script.config import get_param
+from Bio.Application import ApplicationError
 from Bio.Blast.Applications import NcbiblastpCommandline
 from Bio.Blast.Applications import NcbiblastnCommandline
 
