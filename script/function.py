@@ -96,7 +96,7 @@ def safe_blast_call(blast_cmd):
 	try:
 		blast_cmd()
 	except ApplicationError as e:
-		if e.returncode == 3 and "Examining 5 or more matches is recommended" in e.stderr:
+		if "Examining 5 or more matches is recommended" in e.stderr:
 			logging.warning("BLAST warning ignored: %s", e.stderr.strip())
 		else:
 			raise
