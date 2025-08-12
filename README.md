@@ -1,26 +1,37 @@
-# ICEfinder 2.0
+## Script modifications 
+
+### Starting point: `rpalcab` version
+
+The starting point for this repo was a fork from an intermediate commit from the `rpalcab/icefinder2` repo, which made some early changes to the EBI-provided copy. The main contributions include:
+
+1. Defense-finder and CasFinder databases were updated to their latest versions using ```defense-finder update --models-dir data/macsydata```
+2. Logging was added for a closer tracing of the execution.
+
+The author also generated a `docker` image with the content of this repository as linked in that repo. At the time of forking, however, that image seemed to be unavailable for testing.
+
+### Further modifications
+
+1. Created a `singularity/apptainer` image that contains the repository
+   * the `.def` instruction file for generating is given at `singularity/singularity.def` in this repo; the image can be built with:
+   
+     ```apptainer build icefinder.sif singularity.def```
+   * also added a template for submitting the image creation with `sbatch` for more restrictive HPC's at `singularity/create_image.sbatch`
+2. Added a `runscript` entry point to the image to facilitate running
+   * uses the `runscript.sh` script to mount input/output directories onto image, run the `ICEfinder` script on the input file and save the results to a specified output directory
+   * the `singularity/run_icefinder.sh` simplifies the calling by dealing with system binds; example call would be:
+   
+     ```bash run_icefinder.sh  <path/to/icefinder.sif>  <path/to/input/file>  <path/to/output/dir>```
+   * results are saved in a folder with the input file's basename in the output directory provided
+
+<hr>
+<hr>
+
+# ICEfinder 2.0 (original `README`)
 
 ICEfinder 2.0 - Detecting Integrative and Conjugative Elements in Bacteria.
 
 > [!NOTE]
 > This repo contains a copy of https://tool2-mml.sjtu.edu.cn/ICEberg3/Download.html.
-
-## Script modifications
-
-1. Defense-finder and CasFinder databases were updated to their latest versions using ```defense-finder update --models-dir data/macsydata```
-2. Logging was added for a closer tracing of the execution.
-3. What I assume is a bug during the folder creation was fixed (ICEfinder2.py, line 68).
-
-ICEfinder2 was tested with the latest compatible software versions up-to-date (including Macsyfinder and Defense-finder, check environment.yml) and the following command: 
-```
-python ICEfinder2.py -i example/input_demo/NC_000964.3.gb -t Single
-```
-
-The results generated were identical to the test provided by the authors. Despite this, optimal outcomes are not guaranteed.
-
-## Docker availability
-
-I've generated a Docker image with the content of this repository. It is available at: https://hub.docker.com/repository/docker/rpalcab/iceberg2/general
 
 ## Welcome to use ICEfinder local version
 
