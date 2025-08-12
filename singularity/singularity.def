@@ -1,0 +1,47 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%labels
+    Maintainer Vin Armelin
+    Description ICEfinder2 with micromamba
+
+%environment
+    PATH=/opt/micromamba/bin:/opt/icefinder2:$PATH
+    MAMBA_ROOT_PREFIX=/opt/micromamba
+    CONDA_DEFAULT_ENV=icefinder2_env
+    DEFENSE_FINDER_MODELS=/root/.defense-finder/models
+
+%post
+    # Base tools
+    apt-get update && apt-get install -y \
+        curl git bzip2 ca-certificates wget \
+        hmmer default-jre python3 python3-pip unzip && \
+        apt-get clean && rm -rf /var/lib/apt/lists/*
+
+    # Install older version of BLAST+ manually (2.9.0+)
+    mkdir -p /opt/ncbi-blast
+    cd /opt/ncbi-blast
+    wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-x64-linux.tar.gz
+    tar -xzf ncbi-blast-2.9.0+-x64-linux.tar.gz
+    ln -s /opt/ncbi-blast/ncbi-blast-2.9.0+/bin/* /usr/local/bin/
+
+
+    # Install micromamba
+    mkdir -p /opt/micromamba
+    curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj -C /opt/micromamba
+
+    # Clone ICEfinder2
+    # git clone git@github.com:vinarmelin/icefinder.git
+    git clone https://github.com/vinarmelin/icefinder.git /opt/icefinder2
+    
+    # Create environment
+    /opt/micromamba/bin/micromamba create -y -p /opt/micromamba/envs/icefinder2_env -f /opt/icefinder2/environment.yml
+
+    # Update defense-finder models
+    /opt/micromamba/bin/micromamba run -p /opt/micromamba/envs/icefinder2_env defense-finder update --models-dir /root/.defense-finder/models
+
+    # Ensure entrypoint script is executable
+    chmod +x /opt/icefinder2/ICEfinder2.py
+
+%runscript
+    bash /opt/icefinder2/runscript.sh "$@"
